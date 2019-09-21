@@ -51,8 +51,8 @@ tr:nth-child(odd) {
   background-color: #fff;
 }
 
-td {
-  border-bottom: 1px #dedede solid;
+td, th {
+  border: 1px #dedede solid;
 }
 
 img.build {
