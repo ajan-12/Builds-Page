@@ -1,6 +1,6 @@
 function populate() {
   $.getJSON( "https://ajan-12.github.io/config/repos.json", function ( data ) {
-  var insides = '<caption style="font-size: 20px; font-weight: bold;>MC Spigot Plugins</caption><tr><th style="width:83%">Repository</th><th style="width:12%">Supported MC Versions</th><th style="width:5%">Build Status</th></tr>';
+  var insides = '<caption style="font-size: 20px; font-weight: bold;">MC Spigot Plugins</caption><tr><th style="width:83%">Repository</th><th style="width:12%">Supported MC Versions</th><th style="width:5%">Build Status</th></tr>';
 
   for (var i = 0; i < data.length; i++) {
     insides += '<tr><td class="repository"><img src="icons/repository.svg" alt="" class="icon"><a href="https://github.com/';
