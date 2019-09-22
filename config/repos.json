@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AdvancedCommunication",
+    "link": "ajan_12/AdvancedCommunication",
+    "versions": "1.14.*",
+    "status": "success"
+  },
+  {
+    "name": "PlaytimesX",
+    "link": "ajan_12/PlaytimesX",
+    "versions": "1.12.* - 1.14.*",
+    "status": "success"
+  },
+  {
+    "name": "SlimefunFix",
+    "link": "ajan_12/SlimefunFix",
+    "versions": "1.14.*",
+    "status": "success"
+  },
+  {
+    "name": "VoteRewards",
+    "link": "ajan_12/VoteRewards",
+    "versions": "1.14.*",
+    "status": "success"
+  }
+]

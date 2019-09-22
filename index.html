@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>ajan_12 the Dev</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="config/repos.json" charset="utf-8" type="text/javascript"></script>
+    <script src="scripts.js" charset="utf-8" type="text/javascript"></script>
   </head>
   <body>
     <div class="header">
@@ -11,52 +13,50 @@
     </div>
     <script type="text/javascript" src="populator.js"></script>
     <div class="plugins">
-      <table style="width:100%">
-        <caption>
-          <b style="font-size:20px">MC Spigot Plugins</b>
-        </caption>
+      <table style="width:100%" id="populate">
         <tr>
-          <th style="width:85%">Repository</th>
-          <th style="width:10%">Supported MC Versions</th>
+          <th style="width:83%">Repository</th>
+          <th style="width:12%">Supported MC Versions</th>
           <th style="width:5%">Build Status</th>
         </tr>
 
         <tr>
-          <td style="width:85%">
-            <img src="icons/repository.svg" alt="" width="20" height="20">
+          <td class="repository">
+            <img src="icons/repository.svg" alt="" class="icon">
             <a href="https://github.com/ajan-12/AdvancedCommunication">AdvancedCommunication</a>
           </td>
           <td class="version">1.14.*</td>
-          <td class="buildIcon"><img src="icons/tick.svg" alt="" width="20" height="20" class="build"></td>
+          <td class="buildIcon"><img src="icons/tick.svg" alt="" class="icon"></td>
         </tr>
 
         <tr>
-          <td style="width:85%">
-            <img src="icons/repository.svg" alt="" width="20" height="20">
+          <td class="repository">
+            <img src="icons/repository.svg" alt="" class="icon">
             <a href="https://github.com/ajan-12/PlaytimesX">PlaytimesX</a>
           </td>
-          <td class="version">1.14.*</td>
-          <td class="buildIcon"><img src="icons/tick.svg" alt="" width="20" height="20" class="build"></td>
+          <td class="version">1.7.* - 1.14.*</td>
+          <td class="buildIcon"><img src="icons/tick.svg" alt="" class="icon"></td>
         </tr>
 
         <tr>
-          <td style="width:85%">
+          <td class="repository">
             <img src="icons/repository.svg" alt="" width="20" height="20">
             <a href="https://github.com/ajan-12/VoteRewards">VoteRewards</a>
           </td>
           <td class="version">1.14.*</td>
-          <td class="buildIcon"><img src="icons/tick.svg" alt="" width="20" height="20" class="build"></td>
+          <td class="buildIcon"><img src="icons/tick.svg" alt="" class="icon"></td>
         </tr>
 
         <tr>
-          <td style="width:85%">
+          <td class="repository">
             <img src="icons/repository.svg" alt="" width="20" height="20">
             <a href="https://github.com/ajan-12/SlimefunFix">SlimefunFix</a>
           </td>
           <td class="version">1.14.*</td>
-          <td class="buildIcon"><img src="icons/tick.svg" alt="" width="20" height="20" class="build"></td>
+          <td class="buildIcon"><img src="icons/tick.svg" alt="" class="icon"></td>
         </tr>
       </table>
+      <script>populate();</script>
     </div>
   </body>
 </html>

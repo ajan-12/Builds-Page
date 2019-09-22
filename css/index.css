@@ -6,7 +6,7 @@ html, body {
     width: 100%;
 }
 
-p, a {
+a {
   text-decoration: none;
   color: #4b71b8;
   font-family: 'Noto Sans', sans-serif;
@@ -36,6 +36,11 @@ img {
   padding-top: 2px;
 }
 
+img.icon {
+  width: 20px;
+  height: 20px;
+}
+
 table, tr {
   padding-left: 0px;
   padding-right: 0px;
@@ -55,18 +60,18 @@ td, th {
   border: 1px #dedede solid;
 }
 
+td.repository {
+  width: 83%;
+}
+
 td.version {
-  width: 10%;
-  padding-left: 25px;
+  width: 12%;
+  text-align: center;
 }
 
 td.buildIcon {
   width: 5%;
-  padding-left: 15px;
-}
-
-img.build {
-  align-self:flex-end;
+  text-align: center;
 }
 
 div.header {
