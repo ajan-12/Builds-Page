@@ -6,7 +6,7 @@ html, body {
     width: 100%;
 }
 
-a {
+p, a {
   text-decoration: none;
   color: #4b71b8;
   font-family: 'Noto Sans', sans-serif;
@@ -55,6 +55,16 @@ td, th {
   border: 1px #dedede solid;
 }
 
+td.version {
+  width: 10%;
+  padding-left: 25px;
+}
+
+td.buildIcon {
+  width: 5%;
+  padding-left: 15px;
+}
+
 img.build {
   align-self:flex-end;
 }
@@ -62,7 +72,7 @@ img.build {
 div.header {
   background-color: #0f0f0f;
   color: #ebebeb;
-  height: 8%;
+  height: 50px;
   font-size: 16px;
   text-align: center;
 }
