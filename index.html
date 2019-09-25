@@ -9,12 +9,20 @@
     <script src="scripts.js" charset="utf-8" type="text/javascript"></script>
   </head>
   <body>
-    <div class="header">
+    <div id="header">   
       <h1>ajan_12 the Dev's Repositories</h1>
     </div>
-    <div class="plugins">
-      <table style="width:100%" id="populate"></table>
-      <script>populate();</script>
+    <div id="popup">
+      <div id="popupHeader">
+      </div>
+      <div id="popupBody">
+      </div>
     </div>
+    
+    <div id="plugins">
+      <table style="width:100%" id="populate"></table>
+      <script>populateTable();</script>
+    </div>
+    <script>hidePopup();</script>
   </body>
 </html>
