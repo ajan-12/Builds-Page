@@ -1,3 +1,5 @@
+@import url("https://ajan-12.github.io/css/general.css");
+
 html, body {
   background-color: #ebebeb;
   font-family: 'Noto Sans', sans-serif;
@@ -71,13 +73,6 @@ button.repo {
   font-size: 20px;
   color: #4b71b8;
   font-family: 'Noto Sans', sans-serif;
-}
-
-#header {
-  background-color: #0f0f0f;
-  color: #ebebeb;
-  height: 70px;
-  font-size: 16px;
 }
 
 #plugins {
