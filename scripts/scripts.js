@@ -1,5 +1,5 @@
 function populateTable() {
-  $.getJSON( "https://ajan-12.github.io/config/repos.json", function ( data ) {
+  $.getJSON( "https://linox.host/config/repos.json", function ( data ) {
   var insides = '<caption>MC Spigot Plugins</caption><tr><th>Repository</th><th>Supported MC Versions</th><th>Build Status</th></tr>';
 
   for (var i = 0; i < data.length; i++) {
@@ -23,7 +23,7 @@ function populateTable() {
 }
 
 function populatePopup( repo ) {
-  $.getJSON("https://ajan-12.github.io/config/repos.json", function ( data ) {
+  $.getJSON("https://linox.host/config/repos.json", function ( data ) {
     var popup = document.getElementById("popup");
     showPopup();
     
